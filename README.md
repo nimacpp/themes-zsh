@@ -2,7 +2,9 @@
 zsh Theme for hackers
 # image of hacker zsh
 <img src="img/img.png" >
-# install 
+
+## install 
+
 ```bash
 git clone https://github.com/nimacpp/hacker-zsh.git 
 cd hacker-zsh
