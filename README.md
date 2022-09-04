@@ -6,6 +6,7 @@ zsh Themes for hackers
 
 # image of smail zsh
 <img src="img/smail.png" >
+
 ## install 
 
 ```bash
