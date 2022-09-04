@@ -1,8 +1,10 @@
-# hacker-zsh
-zsh Theme for hackers
+# themes-zsh
+zsh Themes for hackers
 # image of hacker zsh
-<img src="img/img.png" >
-
+<img src="img/hacker.png" >
+<img src="img/hacker1.png" >
+# image of smail zsh
+<img src="img/smail.png" >
 ## install 
 
 ```bash
