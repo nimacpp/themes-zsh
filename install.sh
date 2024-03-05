@@ -1,18 +1,14 @@
 #!/bin/bash
 
-echo "Install Zsh Themes ... ";
-echo -n " Are you sure [ y - n ] ";
+echo -e "\e[33mInstall Zsh Themes ... \e[0m";
+echo -en "$\e[32mAre you sure [ y - n ] ? \e[0m";
 read sure;
 case $sure in 
-y) printf "will install .. \r";
-	sleep 0.5;
+y)
 	cp hacker.zsh-theme ~/.oh-my-zsh/themes;
-	printf "hacker theme is install . \r";
-	sleep 0.5;
+	echo -e "\e[32m[ Ok ]\e[0mhacker theme is installed .";
 	cp smail.zsh-theme ~/.oh-my-zsh/themes;
-	printf "samil theme is install . \r";
-	sleep 0.5;
-	echo "installed .!             ";;	
-*) echo "cancelled .";;
+	echo -e "\e[32m[ OK ] \e[0msamil theme is installed .";;
+*) echo -e "\e[31m [ Fail ] \e[0m cancelled .";;
 esac
 
